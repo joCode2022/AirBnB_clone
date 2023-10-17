@@ -278,4 +278,4 @@ $ python3 unittest -m tests/test_console.py
 
 ## Authors :black_nib:
 
-Adebowale Adekanbi {jedediahwales@gmail.com}
+Adebowale Adekanbi <jedediahwales@gmail.com>
