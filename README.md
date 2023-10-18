@@ -9,9 +9,8 @@
 
 ## Description :house:
 
-HolbertonBnB is a complete web application, integrating database storage,
-a back-end API, and front-end interfacing in a clone of AirBnB.
-
+HolbertonBnB represents a comprehensive web application that seamlessly combines database storage, 
+a backend API, and a front-end interface, mirroring the functionality of AirBnB.
 The project currently only implements the back-end console.
 
 ## Classes :cl:
@@ -27,20 +26,16 @@ HolbertonBnB utilizes the following classes:
 
 ## Storage :baggage_claim:
 
-The above classes are handled by the abstracted storage engine defined in the
-[FileStorage](./models/engine/file_storage.py) class.
+The mentioned classes are managed through the abstracted storage engine, which is defined in the FileStorage class.
 
-Every time the backend is initialized, HolbertonBnB instantiates an instance of
-`FileStorage` called `storage`. The `storage` object is loaded/re-loaded from
-any class instances stored in the JSON file `file.json`. As class instances are
-created, updated, or deleted, the `storage` object is used to register
-corresponding changes in the `file.json`.
+Upon each initialization of the backend, HolbertonBnB creates an instance of FileStorage referred to as storage. 
+This storage object is then loaded or reloaded from any class instances stored within the JSON file, named file.json. 
+Whenever class instances are created, modified, or deleted, the storage object is employed to record the corresponding alterations in the file.json file.
 
 ## Console :computer:
 
-The console is a command line interpreter that permits management of the backend
-of HolbertonBnB. It can be used to handle and manipulate all classes utilized by
-the application (achieved by calls on the `storage` object defined above).
+The console serves as a command-line interpreter that allows for the administration of the HolbertonBnB backend. 
+It provides the capability to manage and control all the classes utilized within the application by making calls to the storage object introduced earlier.
 
 ### Using the Console
 
